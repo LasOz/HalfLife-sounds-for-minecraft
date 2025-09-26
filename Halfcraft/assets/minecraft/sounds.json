@@ -1,0 +1,1355 @@
+{
+    "entity.zombie.ambient": {
+      "replace": true,
+      "sounds": [
+        "zombie/zo_idle1",
+        "zombie/zo_idle2",
+        "zombie/zo_idle3",
+        "zombie/zo_idle4"
+      ]
+    },
+    "entity.zombie.hurt": {
+      "replace": true,
+      "sounds": [
+        "zombie/zo_pain1",
+        "zombie/zo_pain2"
+      ]
+    },
+    "entity.zombie.death": {
+      "replace": true,
+      "sounds": [
+        "zombie/zo_alert10",
+        "zombie/zo_alert20",
+        "zombie/zo_alert30"
+      ]
+    },
+    "entity.creeper.primed": {
+      "replace": true,
+      "sounds": [{
+        "name": "houndeye/he_attack1",
+        "pitch": 2
+      }, {
+        "name":"houndeye/he_attack2",
+        "pitch": 2
+      }, {
+        "name": "houndeye/he_attack3",
+        "pitch": 2
+      }
+      ]
+    },
+    "entity.generic.explode": {
+      "replace": true,
+      "sounds": [{
+        "name": "houndeye/he_blast1",
+        "pitch": 1
+      }, {
+        "name":"houndeye/he_blast2",
+        "pitch": 1
+      }, {
+        "name": "houndeye/he_blast3",
+        "pitch": 1
+      }
+      ]
+    },
+    "entity.creeper.hurt": {
+      "replace": true,
+      "sounds": [ {
+        "name": "houndeye/he_pain1",
+        "pitch": 1
+      }, {
+        "name":"houndeye/he_pain2",
+        "pitch": 1
+      }, {
+        "name": "houndeye/he_pain3",
+        "pitch": 1
+      }, {
+        "name": "houndeye/he_pain4",
+        "pitch": 1
+      }, {
+        "name" : "houndeye/he_pain5",
+        "pitch": 1
+      }
+      ]
+    },
+    "entity.creeper.death": {
+      "replace": true,
+      "sounds": [
+        "houndeye/he_die1",
+        "houndeye/he_die2",
+        "houndeye/he_die3"
+      ]
+    },
+
+    "entity.enderman.ambient": {
+      "replace": true,
+      "sounds": [
+        "ichy/ichy_idle1",
+        "ichy/ichy_idle2",
+        "ichy/ichy_idle3",
+        "ichy/ichy_idle4"
+      ]
+    },
+    "entity.enderman.scream": {
+      "replace": true,
+      "sounds": [
+        "ichy/ichy_attack1",
+        "ichy/ichy_attack2"
+      ]
+    },
+    "entity.enderman.death": {
+      "replace": true,
+      "sounds": [
+        "ichy/ichy_die1",
+        "ichy/ichy_die2",
+        "ichy/ichy_die3",
+        "ichy/ichy_die4"
+      ]
+    },
+    "entity.enderman.hurt": {
+      "replace": true,
+      "sounds": [
+        "ichy/ichy_pain1",
+        "ichy/ichy_pain2",
+        "ichy/ichy_pain3",
+        "ichy/ichy_pain5"
+      ]
+    },
+    "entity.enderman.stare": {
+      "replace": true,
+      "sounds": [
+        "ichy/ichy_alert1",
+        "ichy/ichy_alert2",
+        "ichy/ichy_alert3"
+      ]
+    },
+
+    "entity.villager.ambient":{
+      "replace": true,
+      "sounds": 
+        [
+          "scientist/areyouthink",
+          "scientist/cough",
+          "scientist/donuteater",
+          "scientist/doyousmell",
+          "scientist/goodtoseeyou",
+          "scientist/greetings",
+          "scientist/greetings2",
+          "scientist/hello",
+          "scientist/hello2",
+          "scientist/hellothere",
+          "scientist/hideglasses",
+          "scientist/hungryyet",
+          "scientist/justasked",
+          "scientist/needsleep",
+          "scientist/odorfromyou",
+          "scientist/peculiarodor",
+          "scientist/seencup",
+          "scientist/shutup2",
+          "scientist/smellburn",
+          "scientist/sneeze",
+          "scientist/stench",
+          "scientist/whyaskme"
+        ]
+    },
+    "entity.villager.trade":{
+      "replace": true,
+      "sounds": 
+        [
+          "scientist/analysis",
+          "scientist/everseen",
+          "scientist/howinteresting",
+          "scientist/illwait",
+          "scientist/leadtheway",
+          "scientist/letstrythis",
+          "scientist/protectme",
+          "scientist/yees"
+        ]
+    },
+    "entity.villager.death":{
+      "replace": true,
+      "sounds": 
+        [
+          "scientist/noo",
+          "scientist/sci_die1",
+          "scientist/sci_die2",
+          "scientist/sci_die3",
+          "scientist/sci_die4"
+        ]
+    },
+    "entity.villager.hurt":{
+      "replace": true,
+      "sounds": 
+        [
+          "scientist/dontwantdie",
+          "scientist/iwounded",
+          "scientist/iwounded2",
+          "scientist/iwoundedbad",
+          "scientist/noplease",
+          "scientist/sci_pain1",
+          "scientist/sci_pain2",
+          "scientist/sci_pain3",
+          "scientist/sci_pain4",
+          "scientist/sci_pain5",
+          "scientist/sci_pain6",
+          "scientist/sci_pain7",
+          "scientist/sci_pain8",
+          "scientist/sci_pain9",
+          "scientist/sci_pain10",
+          "scientist/scream1",
+          "scientist/scream2",
+          "scientist/scream3",
+          "scientist/scream4",
+          "scientist/scream5",
+          "scientist/scream6",
+          "scientist/scream7",
+          "scientist/scream8",
+          "scientist/scream9",
+          "scientist/scream10",
+          "scientist/scream11",
+          "scientist/scream12",
+          "scientist/scream13",
+          "scientist/scream14",
+          "scientist/scream15",
+          "scientist/scream16",
+          "scientist/scream17",
+          "scientist/scream18",
+          "scientist/scream19",
+          "scientist/scream20",
+          "scientist/scream21",
+          "scientist/scream22",
+          "scientist/scream23",
+          "scientist/scream24",
+          "scientist/scream25"
+        ]
+    },
+    "entity.villager.celebrate":{
+      "replace": true,
+      "sounds": 
+        [
+          "scientist/asexpected",
+          "scientist/excellentteam"
+        ]
+    },
+    "entity.villager.yes":{
+      "replace": true,
+      "sounds": 
+        [
+          "scientist/absolutely",
+          "scientist/allnominal",
+          "scientist/alright",
+          "scientist/ofcourse",
+          "scientist/yes",
+          "scientist/yes2",
+          "scientist/yes3"
+        ]
+    },
+    "entity.villager.no":{
+      "replace": true,
+      "sounds": 
+        [
+          "scientist/absolutelynot",
+          "scientist/cantbeserious",
+          "scientist/dontconcur",
+          "scientist/idontthinkso",
+          "scientist/noidea",
+          "scientist/noo",
+          "scientist/ofcoursenot",
+          "scientist/ridiculous",
+          "scientist/startle5",
+          "scientist/startle6",
+          "scientist/startle7",
+          "scientist/startle8",
+          "scientist/startle9",
+          "scientist/whatyoudoing"
+        ]
+    },
+    "entity.spider.ambient": {
+      "replace": true,
+      "sounds": [
+        "headcrab/hc_idle1",
+        "headcrab/hc_idle2",
+        "headcrab/hc_idle3",
+        "headcrab/hc_idle4",
+        "headcrab/hc_idle5"
+      ]
+    },
+    "entity.spider.death": {
+      "replace": true,
+      "sounds": [
+        "headcrab/hc_die1",
+        "headcrab/hc_die2"
+      ]
+    },
+    "entity.spider.hurt": {
+      "replace": true,
+      "sounds": [
+        "headcrab/hc_pain1",
+        "headcrab/hc_pain2",
+        "headcrab/hc_idle3"
+      ]
+    },
+    "entity.iron_golem.attack": {
+      "replace": true,
+      "sounds": [
+        "barney/ba_bring",
+        "barney/diebloodsucker"
+      ]
+    },
+    "entity.iron_golem.damage": {
+      "replace": true,
+      "sounds": [
+        "barney/ba_uwish",
+        "barney/ba_somuch",
+        "barney/donthurtem"
+      ]
+    },
+    "entity.iron_golem.death": {
+      "replace": true,
+      "sounds": [
+        "barney/ba_die1",
+        "barney/ba_die2",
+        "barney/ba_die3"
+      ]
+    },
+    "entity.iron_golem.hurt": {
+      "replace": true,
+      "sounds": [
+        "barney/ba_pain1",
+        "barney/ba_pain2",
+        "barney/ba_pain3",
+        "barney/ba_stepoff",
+        "barney/ba_tomb"
+      ]
+    },
+    "entity.iron_golem.repair": {
+      "replace": true,
+      "sounds": [
+        "barney/ba_later"
+      ]
+    },
+    "entity.pillager.ambient": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/affirmative",
+        "hgrunt/check",
+        "hgrunt/formation",
+        "hgrunt/gr_alert1",
+        "hgrunt/maintain",
+        "hgrunt/secure"
+      ]
+    },
+    "entity.pillager.celebrate": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/neutralized_l",
+        "hgrunt/yeah_l"
+      ]
+    },
+    "entity.pillager.death": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/gr_die1",
+        "hgrunt/gr_die2",
+        "hgrunt/gr_die3"
+      ]
+    },
+    "entity.pillager.hurt": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/gr_pain1",
+        "hgrunt/gr_pain2",
+        "hgrunt/gr_pain3",
+        "hgrunt/gr_pain4",
+        "hgrunt/gr_pain5"
+      ]
+    },
+    "entity.evoker.ambient": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/affirmative",
+        "hgrunt/check",
+        "hgrunt/formation",
+        "hgrunt/gr_alert1",
+        "hgrunt/maintain",
+        "hgrunt/secure"
+      ]
+    },
+    "entity.evoker.cast_spell": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/fire_l",
+        "hgrunt/recon_l",
+        "hgrunt/hostiles_l"
+      ]
+    },
+    "entity.evoker.celebrate": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/sweep_l"
+      ]
+    },
+    "entity.evoker.death": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/shit_1",
+        "hgrunt/gr_die1",
+        "hgrunt/gr_die2",
+        "hgrunt/gr_die3"
+      ]
+    },
+    "entity.evoker.hurt": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/gr_pain1",
+        "hgrunt/gr_pain2",
+        "hgrunt/gr_pain3",
+        "hgrunt/gr_pain4",
+        "hgrunt/gr_pain5"
+      ]
+    },
+    "entity.evoker.prepare_summon": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/all_l",
+        "hgrunt/backup_l"
+      ]
+    },
+    "entity.evoker.prepare_attack": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/grenade_l"
+      ]
+    },
+    "entity.evoker.prepare_wololo": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/yeah_l",
+        "hgrunt/weird_l"
+      ]
+    },
+    "entity.evoker_fangs.attack": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/gr_mgun1",
+        "hgrunt/gr_mgun2"
+      ]
+    },
+    "entity.vindicator.ambient": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/affirmative",
+        "hgrunt/check",
+        "hgrunt/formation",
+        "hgrunt/gr_alert1",
+        "hgrunt/maintain",
+        "hgrunt/secure"
+      ]
+    },
+    "entity.vindicator.celebrate": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/sweep_l"
+      ]
+    },
+    "entity.vindicator.death": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/shit_1",
+        "hgrunt/gr_die1",
+        "hgrunt/gr_die2",
+        "hgrunt/gr_die3"
+      ]
+    },
+    "entity.vindicator.hurt": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/gr_pain1",
+        "hgrunt/gr_pain2",
+        "hgrunt/gr_pain3",
+        "hgrunt/gr_pain4",
+        "hgrunt/gr_pain5"
+      ]
+    },
+    "entity.vex.ambient": {
+      "replace": true,
+      "sounds": [
+        "squeek/sqk_hunt1",
+        "squeek/sqk_hunt2",
+        "squeek/sqk_hunt3"
+      ]
+    },
+    "entity.vex.charge": {
+      "replace": true,
+      "sounds": [
+        "squeek/sqk_deploy1"
+      ]
+    },
+    "entity.vex.death": {
+      "replace": true,
+      "sounds": [
+        "squeek/sqk_die1"
+      ]
+    },
+    "entity.vex.hurt": {
+      "replace": true,
+      "sounds": [
+        "roach/rch_die"
+      ]
+    },
+
+    "entity.zombified_piglin.ambient": {
+      "replace": true,
+      "sounds": [
+        "aslave/slv_word1",
+        "aslave/slv_word2",
+        "aslave/slv_word3",
+        "aslave/slv_word4",
+        "aslave/slv_word5",
+        "aslave/slv_word6",
+        "aslave/slv_word7",
+        "aslave/slv_word8"
+      ]
+    },
+    "entity.zombified_piglin.angry": {
+      "replace": true,
+      "sounds": [
+        "aslave/slv_alert1",
+        "aslave/slv_alert2",
+        "aslave/slv_alert3"
+      ]
+    },
+    "entity.zombified_piglin.hurt": {
+      "replace": true,
+      "sounds": [
+        "aslave/slv_pain1",
+        "aslave/slv_pain2"
+      ]
+    },
+    "entity.zombified_piglin.death": {
+      "replace": true,
+      "sounds": [
+        "aslave/slv_die1",
+        "aslave/slv_die2"
+      ]
+    },
+
+    
+    "entity.minecart.riding": {
+      "replace": true,
+      "sounds": [
+        "plats/ttrain1",
+        "plats/ttrain2"
+      ]
+    },
+    "entity.minecart.inside": {
+      "replace": true,
+      "sounds": [
+        "plats/ttrain3",
+        "plats/ttrain4",
+        "plats/ttrain6",
+        "plats/ttrain7"
+      ]
+    },
+    "block.lever.click": {
+      "replace": true,
+      "sounds": [
+        "buttons/lever1",
+        "buttons/lever2"
+      ]
+    },
+
+    "block.chest.prepare_summon": {
+      "replace": true,
+      "sounds": [
+        "doors/doormove9"
+      ]
+    },
+    "block.chest.locked": {
+      "replace": true,
+      "sounds": [
+        "buttons/latchlocked1"
+      ]
+    },
+    "block.chest.open": {
+      "replace": true,
+      "sounds": [
+        "doors/doormove9"
+      ]
+    },
+    "block.chest.close": {
+      "replace": true,
+      "sounds": [
+        "doors/doormove10"
+      ]
+    },
+
+    "block.grass.step": {
+      "replace": true,
+      "sounds": [
+        "hgrunt/gr_step1",
+        "hgrunt/gr_step2",
+        "hgrunt/gr_step3",
+        "hgrunt/gr_step4"
+      ]
+    },
+    "block.grass.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/fallpain1",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name": "player/fallpain2",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name" : "player/fallpain3",
+          "pitch": 1.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.grass.hit": {
+      "replace": true,
+      "sounds": [
+        "player/pl_dirt2"
+      ]
+    },
+    "block.grass.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_dirt2",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.grass.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "debris/bustflesh2",
+          "pitch": 1.0
+        }
+      ]
+    },
+
+
+    "block.wooden_door.open": {
+      "replace": true,
+      "sounds": [
+        "doors/doorstop4"
+      ]
+    },
+    "block.wooden_door.close": {
+      "replace": true,
+      "sounds": [
+        "doors/doorstop4"
+      ]
+    },
+    "block.iron_door.open": {
+      "replace": true,
+      "sounds": [
+        "doors/doorstop6"
+      ]
+    },
+    "block.iron_door.close": {
+      "replace": true,
+      "sounds": [
+        "doors/doorstop7"
+      ]
+    },
+    "block.wood.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/bustcrate1",
+          "pitch": 1.0
+        },
+        {
+          "name" : "debris/bustcrate2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "debris/bustcrate3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.wood.place": {
+      "replace": true,
+      "sounds": [
+        "debris/wood3"
+      ]
+    },
+    "block.wood.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/wood3",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name" : "debris/wood4",
+          "pitch": 2.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.wood.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/fallpain1",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name": "player/fallpain2",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name" : "player/fallpain3",
+          "pitch": 1.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.wood.step": {
+      "replace": true,
+      "sounds": [
+        "debris/wood1",
+        "debris/wood2"
+      ]
+    },
+
+    "block.stone.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/bustconcrete1",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/bustconcrete2",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.stone.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_jumpland2",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.stone.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "debris/concrete1",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name": "debris/concrete2",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name" : "debris/concrete3",
+          "pitch": 2.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.stone.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/fallpain1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/fallpain2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/fallpain3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.stone.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_step1",
+        "player/pl_step2",
+        "player/pl_step3",
+        "player/pl_step4"
+      ]
+    },
+
+    "block.sand.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "ambience/sandfall1",
+          "pitch": 2.0
+        },
+        {
+          "name" : "ambience/sandfall2",
+          "pitch": 2.0
+        }
+      ]
+    },
+    "block.sand.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_step1",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.sand.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "weapons/debris1",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name": "ambience/debris2",
+          "pitch": 2.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.sand.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/fallpain1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/fallpain2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/fallpain3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.sand.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_dirt1",
+        "player/pl_dirt2",
+        "player/pl_dirt3",
+        "player/pl_dirt4"
+      ]
+    },
+
+    "block.gravel.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "ambience/sandfall1",
+          "pitch": 2.0
+        },
+        {
+          "name" : "ambience/sandfall2",
+          "pitch": 2.0
+        }
+      ]
+    },
+    "block.gravel.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_step1",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.gravel.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "weapons/debris1",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name": "ambience/debris2",
+          "pitch": 2.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.gravel.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/fallpain1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/fallpain2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/fallpain3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.gravel.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_dirt1",
+        "player/pl_dirt2",
+        "player/pl_dirt3",
+        "player/pl_dirt4"
+      ]
+    },
+
+    "ambient.underwater.enter": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_swim1",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "player/pl_swim2",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "player/pl_swim3",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "player/pl_swi4",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "ambient.underwater.exit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/breathe1",
+          "pitch": 1.0,
+          "volume": 0.3
+        },
+        {
+          "name": "player/breathe2",
+          "pitch": 1.0,
+          "volume": 0.3
+        }
+      ]
+    },
+    "ambient.underwater.loop": {
+      "replace": true,
+      "sounds": [
+      ]
+    },
+    "ambient.underwater.loop.additions": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "fvox/boop",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "ambient.underwater.additions.rare": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "tentacle/te_sing1",
+          "pitch": 1.0,
+          "volume": 0.75
+        },
+        {
+          "name": "tentacle/te_sing2",
+          "pitch": 1.0,
+          "volume": 0.75
+        }
+      ]
+    },
+    "ambient.underwater.additions.ultra_rare": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "ichy/ichy_alert1",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "ichy/ichy_alert2",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "ichy/ichy_alert3",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.water.ambient": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "ambience/waterfall3",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "entity.generic.splash": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_wade1",
+          "pitch": 1.0,
+          "volume": 0.3
+        },
+        {
+          "name": "player/pl_wade2",
+          "pitch": 1.0,
+          "volume": 0.3
+        },
+        {
+          "name": "player/pl_wade3",
+          "pitch": 1.0,
+          "volume": 0.3
+        },
+        {
+          "name": "player/pl_wade4",
+          "pitch": 1.0,
+          "volume": 0.3
+        }
+      ]
+    },
+    "entity.generic.swim": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_swim1",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "player/pl_swim2",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "player/pl_swim3",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "player/pl_swi4",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "item.bucket.empty": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_slosh1",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "player/pl_slosh2",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "entity.bucket.fill": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_slosh3",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name": "player/pl_slosh4",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "music.under_water": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "music/half-life04",
+          "pitch": 1.0,
+          "volume": 0.4
+        },
+        {
+          "name": "music/half-life10",
+          "pitch": 1.0,
+          "volume": 0.4
+        }
+      ]
+    },
+
+    "block.furnace.fire_crackle":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "ambience/burning1",
+          "pitch": 1.0,
+          "volume": 0.1
+        },
+        {
+          "name": "ambience/burning2",
+          "pitch": 1.0,
+          "volume": 0.1
+        },
+        {
+          "name": "ambience/burning3",
+          "pitch": 1.0,
+          "volume": 0.1
+        }
+      ]
+    },
+
+    "entity.experience_orb.pickup":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "fvox/fuzz",
+          "pitch": 1.0,
+          "volume": 1
+        }
+      ]
+    },
+    "entity.player.levelup":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "fvox/bell",
+          "pitch": 1.0,
+          "volume": 1
+        }
+      ]
+    },
+    "entity.player.death":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "fvox/flatline",
+          "pitch": 1.0,
+          "volume": 0.50
+        }
+      ]
+    },
+
+    "block.iron.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_metal1",
+        "player/pl_metal2",
+        "player/pl_metal3",
+        "player/pl_metal4"
+      ]
+    },
+
+    "entity.generic.eat": {
+      "replace": true,
+      "sounds": [
+        "items/medcharge4"
+      ]
+    },
+    "entity.generic.drink": {
+      "replace": true,
+      "sounds": [
+        "items/suitcharge1"
+      ]
+    },
+    "entity.player.burp": {
+      "replace": true,
+      "sounds": [
+        "items/medshotno1"
+      ]
+    },
+    "entity.player.hurt": {
+      "replace": true,
+      "sounds": [
+        "player/pl_pain2",
+        "player/pl_pain4",
+        "player/pl_pain5",
+        "player/pl_pain6",
+        "player/pl_pain7"
+      ]
+    },
+    "entity.player.small_fall": {
+      "replace": true,
+      "sounds": [
+        "fvox/minor_fracture"
+        
+      ]
+    },
+    "entity.player.big_fall": {
+      "replace": true,
+      "sounds": [
+        "fvox/major_fracture"
+      ]
+    },
+    "entity.player.splash": {
+      "replace": true,
+      "sounds": [
+        "player/pl_wade1",
+        "player/pl_wade2"
+      ]
+    },
+    "entity.player.splash_high_speed": {
+      "replace": true,
+      "sounds": [
+        "player/pl_wade3",
+        "player/pl_wade4"
+      ]
+    },
+
+    "block.dirt.break": {
+      "replace": true,
+      "sounds": [
+        "player/pl_dirt3",
+        "player/pl_dirt4"
+      ]
+    },
+
+    "item.sword.swing": {
+      "replace": true,
+      "sounds": [
+        "weapons/cbar_miss1"
+      ]
+    },
+    "item.sword.hit": {
+      "replace": true,
+      "sounds": [
+        "weapons/cbar_hitbod1",
+        "weapons/cbar_hitbod2",
+        "weapons/cbar_hitbod3"
+      ]
+    },
+
+    "block.portal.ambient":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "ambience/alien_powernode",
+          "pitch": 1.0,
+          "volume": 0.75
+        }
+      ]
+    },
+    "block.portal.travel":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "ambience/pulsemachine",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.portal.trigger":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "debris/beamstart7",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+
+    "entity.item.pickup": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "items/gunpickup2",
+          "pitch": 0.5,
+          "volume": 1
+        }
+      ]
+    },
+
+    "ambient.cave": {
+      "replace": true,
+      "sounds": [
+        "ambience/wind1",
+        "ambience/wind2"
+      ]
+    },
+    "ambient.weather.rain": {
+      "replace": true,
+      "sounds": [
+        "ambience/waterfall2"
+      ]
+    },
+    "ambient.weather.thunder": {
+      "replace": true,
+      "sounds": [
+        "debris/beamstart9"
+      ]
+    },
+    "music.menu": {
+      "replace": true,
+      "sounds": [
+        "music/half-life13"
+      ]
+    },
+    "music.game": {
+      "replace": true,
+      "sounds": [
+        "music/half-life03",
+        "music/half-life04",
+        "music/half-life05",
+        "music/half-life07",
+        "music/half-life08",
+        "music/half-life11",
+        "music/half-life12",
+        "music/half-life14"
+      ]
+    }
+  }
+  
