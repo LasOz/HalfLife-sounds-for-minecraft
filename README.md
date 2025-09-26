@@ -3,7 +3,7 @@ Minecraft Java Edition Sound Pack that replaces some default Minecraft sounds
 
 ## Requirements:
 - Half-Life 1 installed on your via Steam, the original version not Half-Life:Source.
-- FFMpeg installed and on your system's `PATH`.
+- [FFmpeg](https://ffmpeg.org/) installed and on your system's `PATH`.
 - Minecraft Java Edition.
 
 ## Install:
