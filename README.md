@@ -11,7 +11,7 @@ This mod needs to grab the sound files from Half-Life in order to use them. The 
 
 1. Download this project and put the files *anywhere* but your resourcepacks folder for Minecraft.
 2. In the project find the `installer` folder and open a terminal in that location.
-3. Run 'java Install` and you will be greeted with a simple UI to help with the install.
+3. Run `java Install` and you will be greeted with a simple UI to help with the install.
 
 ### SETUP
 The installer makes best guesses for where the files may be but you may have to set the directories yourself.
