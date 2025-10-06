@@ -122,6 +122,14 @@
         "ichy/ichy_alert3"
       ]
     },
+    "entity.enderman.teleport": {
+      "replace": true,
+      "sounds": [
+        "debris/beamstart1",
+        "debris/beamstart2",
+        "debris/beamstart7"
+      ]
+    },
 
     "entity.villager.ambient":{
       "replace": true,
@@ -1188,6 +1196,37 @@
         }
       ]
     },
+    "entity.player.hurt_on_fire": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "fvox/heat_damage",
+          "pitch": 1.0,
+          "volume": 0.3
+        }
+      ]
+    },
+    "block.campfire.crackle": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "ambience/burning1",
+          "pitch": 1.0,
+          "volume": 0.01
+        },
+        {
+          "name": "ambience/burning2",
+          "pitch": 1.0,
+          "volume": 0.01
+        },
+        {
+          "name": "ambience/burning3",
+          "pitch": 1.0,
+          "volume": 0.01
+        }
+      ]
+    },
+
     "item.bucket.empty": {
       "replace": true,
       "sounds": [
@@ -1241,20 +1280,152 @@
         {
           "name": "ambience/burning1",
           "pitch": 1.0,
-          "volume": 0.1
+          "volume": 0.01
         },
         {
           "name": "ambience/burning2",
           "pitch": 1.0,
-          "volume": 0.1
+          "volume": 0.01
         },
         {
           "name": "ambience/burning3",
           "pitch": 1.0,
-          "volume": 0.1
+          "volume": 0.01
         }
       ]
     },
+
+    "entity.skeleton.ambient":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "aslave/slv_word1",
+          "pitch": 1.0,
+          "volume": 0.8
+        },
+        {
+          "name": "aslave/slv_word2",
+          "pitch": 1.0,
+          "volume": 0.8
+        },
+        {
+          "name": "aslave/slv_word3",
+          "pitch": 1.0,
+          "volume": 0.8
+        },
+        {
+          "name": "aslave/slv_word4",
+          "pitch": 1.0,
+          "volume": 0.8
+        },
+        {
+          "name": "aslave/slv_word5",
+          "pitch": 1.0,
+          "volume": 0.8
+        },
+        {
+          "name": "aslave/slv_word6",
+          "pitch": 1.0,
+          "volume": 0.8
+        },
+        {
+          "name": "aslave/slv_word7",
+          "pitch": 1.0,
+          "volume": 0.8
+        },
+        {
+          "name": "aslave/slv_word8",
+          "pitch": 1.0,
+          "volume": 0.8
+        }
+      ]
+    },
+    "entity.skeleton.hurt":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "aslave/slv_pain1",
+          "pitch": 1.0,
+          "volume": 1
+        },
+        {
+          "name": "aslave/slv_pain2",
+          "pitch": 1.0,
+          "volume": 1
+        }
+      ]
+    },
+    "entity.skeleton.death":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "aslave/slv_die1",
+          "pitch": 1.0,
+          "volume": 1
+        },
+        {
+          "name": "aslave/slv_die2",
+          "pitch": 1.0,
+          "volume": 1
+        }
+      ]
+    },
+    "entity.skeleton.step":
+    {
+      "replace": true,
+      "sounds": [
+        "player/pl_tile1",
+        "player/pl_tile2",
+        "player/pl_tile3",
+        "player/pl_tile4"
+      ]
+    },
+    "entity.skeleton.shoot":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "debris/beamstart9",
+          "pitch": 1.0,
+          "volume": 1
+        },
+        {
+          "name": "debris/beamstart10",
+          "pitch": 1.0,
+          "volume": 1
+        },
+        {
+          "name": "debris/beamstart15",
+          "pitch": 1.0,
+          "volume": 1
+        }
+      ]
+    },
+    "entity.skeleton.converted_to_stray":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "aslave/slv_alert1",
+          "pitch": 1.0,
+          "volume": 1
+        },
+        {
+          "name": "aslave/slv_alert2",
+          "pitch": 1.0,
+          "volume": 1
+        },
+        {
+          "name": "aslave/slv_alert3",
+          "pitch": 1.0,
+          "volume": 1
+        }
+      ]
+    },
+    
 
     "entity.experience_orb.pickup":
     {
