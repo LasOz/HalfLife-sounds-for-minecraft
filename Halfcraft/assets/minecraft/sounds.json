@@ -682,7 +682,10 @@
     "block.wood.place": {
       "replace": true,
       "sounds": [
-        "debris/wood3"
+        "player/pl_tile1",
+        "player/pl_tile2",
+        "player/pl_tile3",
+        "player/pl_tile4"
       ]
     },
     "block.wood.hit": {
@@ -723,8 +726,10 @@
     "block.wood.step": {
       "replace": true,
       "sounds": [
-        "debris/wood1",
-        "debris/wood2"
+        "player/pl_tile1",
+        "player/pl_tile2",
+        "player/pl_tile3",
+        "player/pl_tile4"
       ]
     },
 
@@ -796,6 +801,112 @@
         "player/pl_step2",
         "player/pl_step3",
         "player/pl_step4"
+      ]
+    },
+
+    "block.glass.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/glass1",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/glass2",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/glass3",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/glass4",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.glass.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_grate1",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name" : "player/pl_grate2",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name" : "player/pl_grate3",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name" : "player/pl_grate4",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.glass.step": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_grate1",
+          "pitch": 1.0,
+          "volume": 0.2
+        },
+        {
+          "name" : "player/pl_grate2",
+          "pitch": 1.0,
+          "volume": 0.2
+        },
+        {
+          "name" : "player/pl_grate3",
+          "pitch": 1.0,
+          "volume": 0.2
+        },
+        {
+          "name" : "player/pl_grate4",
+          "pitch": 1.0,
+          "volume": 0.2
+        }
+      ]
+    },
+    "block.glass.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/ric1",
+          "pitch": 1.0,
+          "volume": 0.2
+        },
+        {
+          "name" : "weapons/ric2",
+          "pitch": 1.0,
+          "volume": 0.2
+        },
+        {
+          "name" : "weapons/ric3",
+          "pitch": 1.0,
+          "volume": 0.2
+        },
+        {
+          "name" : "weapons/ric4",
+          "pitch": 1.0,
+          "volume": 0.2
+        },
+        {
+          "name" : "weapons/ric5",
+          "pitch": 1.0,
+          "volume": 0.2
+        }
       ]
     },
 

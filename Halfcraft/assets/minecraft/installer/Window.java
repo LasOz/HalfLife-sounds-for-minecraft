@@ -8,11 +8,11 @@ public class Window {
     private JTextArea textArea;
 
     //HL-Dir
-    private JButton hl_button = new JButton("Select Directory");
+    private JButton hl_button = new JButton("Select Half-Life Directory");
     private JLabel hl_label = new JLabel("No directory selected");
 
     //Resource-pack
-    private JButton rp_button = new JButton("Select Directory");
+    private JButton rp_button = new JButton("Select Resourcepack Directory");
     private JLabel rp_label = new JLabel("No directory selected");
 
     private JButton copyvert = new JButton("Convert");
