@@ -131,6 +131,13 @@
       ]
     },
 
+    "ui.hud.bubble_pop": {
+      "replace": true,
+      "sounds": [
+        "fvox/boop"
+      ]
+    },
+
     "entity.villager.ambient":{
       "replace": true,
       "sounds": 
@@ -210,8 +217,8 @@
           "scientist/scream5",
           "scientist/scream6",
           "scientist/scream7",
-          "scientist/scream8",
-          "scientist/scream9",
+          "scientist/scream08",
+          "scientist/scream09",
           "scientist/scream10",
           "scientist/scream11",
           "scientist/scream12",
@@ -399,7 +406,7 @@
     "entity.evoker.death": {
       "replace": true,
       "sounds": [
-        "hgrunt/shit_1",
+        "hgrunt/shit_l",
         "hgrunt/gr_die1",
         "hgrunt/gr_die2",
         "hgrunt/gr_die3"
@@ -462,7 +469,7 @@
     "entity.vindicator.death": {
       "replace": true,
       "sounds": [
-        "hgrunt/shit_1",
+        "hgrunt/shit_l",
         "hgrunt/gr_die1",
         "hgrunt/gr_die2",
         "hgrunt/gr_die3"
@@ -522,7 +529,6 @@
       "replace": true,
       "sounds": [
         "aslave/slv_alert1",
-        "aslave/slv_alert2",
         "aslave/slv_alert3"
       ]
     },
@@ -604,17 +610,17 @@
       "replace": true,
       "sounds": [
         {
-          "name": "player/fallpain1",
+          "name": "player/pl_fallpain1",
           "pitch": 1.0,
           "volume": 0.25
         },
         {
-          "name": "player/fallpain2",
+          "name": "player/pl_fallpain2",
           "pitch": 1.0,
           "volume": 0.25
         },
         {
-          "name" : "player/fallpain3",
+          "name" : "player/pl_fallpain3",
           "pitch": 1.0,
           "volume": 0.25
         }
@@ -715,17 +721,17 @@
       "replace": true,
       "sounds": [
         {
-          "name": "player/fallpain1",
+          "name": "player/pl_fallpain1",
           "pitch": 1.0,
           "volume": 0.25
         },
         {
-          "name": "player/fallpain2",
+          "name": "player/pl_fallpain2",
           "pitch": 1.0,
           "volume": 0.25
         },
         {
-          "name" : "player/fallpain3",
+          "name" : "player/pl_fallpain3",
           "pitch": 1.0,
           "volume": 0.25
         }
@@ -789,15 +795,15 @@
       "replace": true,
       "sounds": [
         {
-          "name": "player/fallpain1",
+          "name": "player/pl_fallpain1",
           "pitch": 1.0
         },
         {
-          "name": "player/fallpain2",
+          "name": "player/pl_fallpain2",
           "pitch": 1.0
         },
         {
-          "name" : "player/fallpain3",
+          "name" : "player/pl_fallpain3",
           "pitch": 1.0
         }
       ]
@@ -949,7 +955,7 @@
           "volume": 0.25
         },
         {
-          "name": "ambience/debris2",
+          "name": "weapons/debris2",
           "pitch": 2.0,
           "volume": 0.25
         }
@@ -959,15 +965,15 @@
       "replace": true,
       "sounds": [
         {
-          "name": "player/fallpain1",
+          "name": "player/pl_fallpain1",
           "pitch": 1.0
         },
         {
-          "name": "player/fallpain2",
+          "name": "player/pl_fallpain2",
           "pitch": 1.0
         },
         {
-          "name" : "player/fallpain3",
+          "name" : "player/pl_fallpain3",
           "pitch": 1.0
         }
       ]
@@ -1023,15 +1029,15 @@
       "replace": true,
       "sounds": [
         {
-          "name": "player/fallpain1",
+          "name": "player/pl_fallpain1",
           "pitch": 1.0
         },
         {
-          "name": "player/fallpain2",
+          "name": "player/pl_fallpain2",
           "pitch": 1.0
         },
         {
-          "name" : "player/fallpain3",
+          "name" : "player/pl_fallpain3",
           "pitch": 1.0
         }
       ]
@@ -1065,7 +1071,7 @@
           "volume": 0.5
         },
         {
-          "name": "player/pl_swi4",
+          "name": "player/pl_swim4",
           "pitch": 1.0,
           "volume": 0.5
         }
@@ -1094,11 +1100,6 @@
     "ambient.underwater.loop.additions": {
       "replace": true,
       "sounds": [
-        {
-          "name": "fvox/boop",
-          "pitch": 1.0,
-          "volume": 0.5
-        }
       ]
     },
     "ambient.underwater.additions.rare": {
@@ -1190,7 +1191,7 @@
           "volume": 0.5
         },
         {
-          "name": "player/pl_swi4",
+          "name": "player/pl_swim4",
           "pitch": 1.0,
           "volume": 0.5
         }
@@ -1414,11 +1415,6 @@
           "volume": 1
         },
         {
-          "name": "aslave/slv_alert2",
-          "pitch": 1.0,
-          "volume": 1
-        },
-        {
           "name": "aslave/slv_alert3",
           "pitch": 1.0,
           "volume": 1
@@ -1426,18 +1422,205 @@
       ]
     },
     
+    "block.netherrack.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "ambience/sandfall1",
+          "pitch": 2.0
+        },
+        {
+          "name" : "ambience/sandfall2",
+          "pitch": 2.0
+        }
+      ]
+    },
+    "block.netherrack.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_step1",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.netherrack.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "weapons/debris1",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name": "ambience/debris2",
+          "pitch": 2.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.netherrack.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_fallpain1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_fallpain2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_fallpain3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.netherrack.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_dirt1",
+        "player/pl_dirt2",
+        "player/pl_dirt3",
+        "player/pl_dirt4"
+      ]
+    },
+    
+    "block.snow.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "fvox/hiss",
+          "pitch": 1,
+          "volume": 0.1
+        }
+      ]
+    },
+    "block.snow.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_step1",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.snow.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_dirt1",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name": "player/pl_dirt2",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name": "player/pl_dirt3",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name": "player/pl_dirt4",
+          "pitch": 1.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.snow.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_fallpain1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_fallpain2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_fallpain3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.snow.step": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_dirt1",
+          "pitch": 0.5,
+          "volume": 0.01
+        },
+        {
+          "name": "player/pl_dirt2",
+          "pitch": 0.5,
+          "volume": 0.01
+        },
+        {
+          "name": "player/pl_dirt3",
+          "pitch": 0.5,
+          "volume": 0.01
+        },
+        {
+          "name": "player/pl_dirt4",
+          "pitch": 0.5,
+          "volume": 0.01
+        }
+      ]
+    },
 
-    "entity.experience_orb.pickup":
+    "entity.boat.paddle_land":
     {
       "replace": true,
       "sounds": [
         {
-          "name": "fvox/fuzz",
+          "name": "debris/pushbox1",
           "pitch": 1.0,
-          "volume": 1
+          "volume": 0.1
+        },
+        {
+          "name": "debris/pushbox2",
+          "pitch": 1.0,
+          "volume": 0.1
+        },
+        {
+          "name": "debris/pushbox3",
+          "pitch": 1.0,
+          "volume": 0.1
         }
       ]
     },
+    "entity.boat.paddle_water":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_slosh1",
+          "pitch": 1.0,
+          "volume": 0.1
+        },
+        {
+          "name": "player/pl_slosh2",
+          "pitch": 1.0,
+          "volume": 0.1
+        },
+        {
+          "name": "player/pl_slosh3",
+          "pitch": 1.0,
+          "volume": 0.1
+        },
+        {
+          "name": "player/pl_slosh4",
+          "pitch": 1.0,
+          "volume": 0.1
+        }
+      ]
+    },
+
     "entity.player.levelup":
     {
       "replace": true,
