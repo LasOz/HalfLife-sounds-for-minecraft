@@ -818,6 +818,154 @@
       ]
     },
 
+    "block.deepslate.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/bustconcrete1",
+          "pitch": 1.0,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/bustconcrete2",
+          "pitch": 1.0,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.deepslate.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_jumpland2",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.deepslate.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "debris/concrete1",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name": "debris/concrete2",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name" : "debris/concrete3",
+          "pitch": 2.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.deepslate.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_fallpain1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_fallpain2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_fallpain3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.deepslate.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_jump1",
+        "player/pl_jump2"
+      ]
+    },
+
+    "block.metal.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/cbar_hit1",
+          "pitch": 0.8,
+          "volume": 0.5
+        },
+        {
+          "name" : "weapons/cbar_hit2",
+          "pitch": 0.8,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.metal.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_metal1",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_metal2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_metal3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.metal.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_duct1",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name": "player/pl_duct2",
+          "pitch": 1.0,
+          "volume": 0.25
+        },
+        {
+          "name" : "player/pl_duct3",
+          "pitch": 1.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.metal.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_duct1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_duct2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_duct3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.metal.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_grate1",
+        "player/pl_grate2",
+        "player/pl_grate3",
+        "player/pl_grate4"
+      ]
+    },
+
     "block.glass.break": {
       "replace": true,
       "sounds": [
@@ -929,11 +1077,13 @@
       "sounds": [
         {
           "name" : "ambience/sandfall1",
-          "pitch": 2.0
+          "pitch": 2.0,
+          "volume": 0.25
         },
         {
           "name" : "ambience/sandfall2",
-          "pitch": 2.0
+          "pitch": 2.0,
+          "volume": 0.25
         }
       ]
     },
@@ -993,11 +1143,13 @@
       "sounds": [
         {
           "name" : "ambience/sandfall1",
-          "pitch": 2.0
+          "pitch": 2.0,
+          "volume": 0.25
         },
         {
           "name" : "ambience/sandfall2",
-          "pitch": 2.0
+          "pitch": 2.0,
+          "volume": 0.25
         }
       ]
     },
@@ -1019,7 +1171,7 @@
           "volume": 0.25
         },
         {
-          "name": "ambience/debris2",
+          "name": "weapons/debris2",
           "pitch": 2.0,
           "volume": 0.25
         }
@@ -1043,6 +1195,72 @@
       ]
     },
     "block.gravel.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_dirt1",
+        "player/pl_dirt2",
+        "player/pl_dirt3",
+        "player/pl_dirt4"
+      ]
+    },
+
+    "block.tuff.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "ambience/sandfall1",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name" : "ambience/sandfall2",
+          "pitch": 2.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.tuff.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_step1",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.tuff.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "weapons/debris1",
+          "pitch": 2.0,
+          "volume": 0.25
+        },
+        {
+          "name": "weapons/debris2",
+          "pitch": 2.0,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.tuff.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_fallpain1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_fallpain2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_fallpain3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.tuff.step": {
       "replace": true,
       "sounds": [
         "player/pl_dirt1",
@@ -1141,9 +1359,14 @@
       "replace": true,
       "sounds": [
         {
+          "name": "ambience/waterfall2",
+          "pitch": 1.0,
+          "volume": 0.15
+        },
+        {
           "name": "ambience/waterfall3",
           "pitch": 1.0,
-          "volume": 0.5
+          "volume": 0.15
         }
       ]
     },
@@ -1427,11 +1650,13 @@
       "sounds": [
         {
           "name" : "ambience/sandfall1",
-          "pitch": 2.0
+          "pitch": 2.0,
+          "volume": 0.25
         },
         {
           "name" : "ambience/sandfall2",
-          "pitch": 2.0
+          "pitch": 2.0,
+          "volume": 0.25
         }
       ]
     },
@@ -1453,7 +1678,7 @@
           "volume": 0.25
         },
         {
-          "name": "ambience/debris2",
+          "name": "weapons/debris2",
           "pitch": 2.0,
           "volume": 0.25
         }
@@ -1710,6 +1935,73 @@
       ]
     },
 
+    "block.piston.extend": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "doors/doormove3",
+          "pitch": 1.37931034,
+          "volume": 1
+        },
+        {
+          "name": "doors/doormove8",
+          "pitch": 1.37931034,
+          "volume": 1
+        }
+      ]
+    },
+    "block.piston.contract": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "doors/doorstop1",
+          "pitch": 1.37931034,
+          "volume": 1
+        },
+        {
+          "name": "doors/doorstop8",
+          "pitch": 1.37931034,
+          "volume": 1
+        }
+      ]
+    },
+
+    "block.tripwire.attach": {
+      "replace": true,
+      "sounds": [
+        { 
+          "name": "weapons/mine_charge",
+          "volume": 0.4,
+          "pitch": 1.42
+        }
+      ]
+    },
+    "block.tripwire.click_off": {
+      "replace": true,
+      "sounds": [
+      ]
+    },
+    "block.tripwire.click_on": {
+      "replace": true,
+      "sounds": [
+        { 
+          "name": "weapons/mine_activate",
+          "volume": 0.4,
+          "pitch": 1.42
+        }
+      ]
+    },
+    "block.tripwire.detach": {
+      "replace": true,
+      "sounds": [
+        { 
+          "name": "weapons/mine_deploy",
+          "volume": 0.4,
+          "pitch": 1
+        }
+      ]
+    },
+
     "block.dirt.break": {
       "replace": true,
       "sounds": [
@@ -1730,6 +2022,18 @@
         "weapons/cbar_hitbod1",
         "weapons/cbar_hitbod2",
         "weapons/cbar_hitbod3"
+      ]
+    },
+
+    "entity.experience_orb.pickup":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "fvox/fuzz",
+          "pitch": 1.0,
+          "volume": 1
+        }
       ]
     },
 
