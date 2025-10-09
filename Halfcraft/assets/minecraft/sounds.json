@@ -342,6 +342,31 @@
         "barney/ba_later"
       ]
     },
+    "entity.iron_golem.step": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_ladder1",
+          "volume": 0.5,
+          "pitch": 0.5
+        },
+        {
+          "name": "player/pl_ladder2",
+          "volume": 0.5,
+          "pitch": 0.5
+        },
+        {
+          "name": "player/pl_ladder3",
+          "volume": 0.5,
+          "pitch": 0.5
+        },
+        {
+          "name": "player/pl_ladder4",
+          "volume": 0.5,
+          "pitch": 0.5
+        }
+      ]
+    },
     "entity.pillager.ambient": {
       "replace": true,
       "sounds": [
@@ -547,6 +572,111 @@
       ]
     },
 
+    "entity.ghast.ambient": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "controller/con_idle1",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_idle2",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_idle3",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_idle4",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_idle5",
+          "pitch": 1,
+          "volume": 5
+        }
+      ]
+    },
+    "entity.ghast.charge": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "controller/con_alert1",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_alert2",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_alert3",
+          "pitch": 1,
+          "volume": 5
+        }
+      ]
+    },
+    "entity.ghast.death": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "controller/con_die1",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_die2",
+          "pitch": 1,
+          "volume": 5
+        }
+      ]
+    },
+    "entity.ghast.hurt": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "controller/con_pain1",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_pain2",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_pain3",
+          "pitch": 1,
+          "volume": 5
+        }
+      ]
+    },
+    "entity.ghast.shoot": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "controller/con_attack1",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_attack2",
+          "pitch": 1,
+          "volume": 5
+        },
+        {
+          "name" : "controller/con_attack3",
+          "pitch": 1,
+          "volume": 5
+        }
+      ]
+    },
     
     "entity.minecart.riding": {
       "replace": true,
@@ -891,13 +1021,13 @@
       "replace": true,
       "sounds": [
         {
-          "name" : "weapons/cbar_hit1",
-          "pitch": 0.8,
+          "name" : "debris/bustmetal1",
+          "pitch": 1,
           "volume": 0.5
         },
         {
-          "name" : "weapons/cbar_hit2",
-          "pitch": 0.8,
+          "name" : "debris/bustmetal2",
+          "pitch": 1,
           "volume": 0.5
         }
       ]
@@ -923,18 +1053,13 @@
       "replace": true,
       "sounds": [
         {
-          "name": "player/pl_duct1",
-          "pitch": 1.0,
+          "name": "weapons/cbar_hit1",
+          "pitch": 2,
           "volume": 0.25
         },
         {
-          "name": "player/pl_duct2",
-          "pitch": 1.0,
-          "volume": 0.25
-        },
-        {
-          "name" : "player/pl_duct3",
-          "pitch": 1.0,
+          "name": "weapons/cbar_hit2",
+          "pitch": 2,
           "volume": 0.25
         }
       ]
@@ -959,10 +1084,158 @@
     "block.metal.step": {
       "replace": true,
       "sounds": [
-        "player/pl_grate1",
-        "player/pl_grate2",
-        "player/pl_grate3",
-        "player/pl_grate4"
+        "player/pl_metal1",
+        "player/pl_metal2",
+        "player/pl_metal3",
+        "player/pl_metal4"
+      ]
+    },
+
+    "block.iron.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/bustmetal1",
+          "pitch": 1,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/bustmetal2",
+          "pitch": 1,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.iron.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_metal1",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_metal2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_metal3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.iron.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "weapons/cbar_hit1",
+          "pitch": 2,
+          "volume": 0.25
+        },
+        {
+          "name": "weapons/cbar_hit2",
+          "pitch": 2,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.iron.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_duct1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_duct2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_duct3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.iron.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_metal1",
+        "player/pl_metal2",
+        "player/pl_metal3",
+        "player/pl_metal4"
+      ]
+    },
+
+    "block.copper.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/bustmetal1",
+          "pitch": 1,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/bustmetal2",
+          "pitch": 1,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.copper.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_metal1",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_metal2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_metal3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.copper.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "weapons/cbar_hit1",
+          "pitch": 2,
+          "volume": 0.25
+        },
+        {
+          "name": "weapons/cbar_hit2",
+          "pitch": 2,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.copper.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_duct1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_duct2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_duct3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.copper.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_metal1",
+        "player/pl_metal2",
+        "player/pl_metal3",
+        "player/pl_metal4"
       ]
     },
 
@@ -1869,16 +2142,6 @@
       ]
     },
 
-    "block.iron.step": {
-      "replace": true,
-      "sounds": [
-        "player/pl_metal1",
-        "player/pl_metal2",
-        "player/pl_metal3",
-        "player/pl_metal4"
-      ]
-    },
-
     "entity.generic.eat": {
       "replace": true,
       "sounds": [
@@ -1962,6 +2225,73 @@
           "name": "doors/doorstop8",
           "pitch": 1.37931034,
           "volume": 1
+        }
+      ]
+    },
+
+
+    "block.lava.ambient": {
+      "replace": true,
+      "sounds": [
+        { 
+          "name": "ambience/distantmortar1",
+          "volume": 0.4,
+          "pitch": 1
+        },
+        { 
+          "name": "ambience/distantmortar2",
+          "volume": 0.4,
+          "pitch": 1
+        },
+        { 
+          "name": "ambience/distantmortar3",
+          "volume": 0.4,
+          "pitch": 1
+        }
+      ]
+    },
+    "block.lava.extinguish": {
+      "replace": true,
+      "sounds": [
+        { 
+          "name": "ambience/steamburst1",
+          "volume": 0.4,
+          "pitch": 1
+        }
+      ]
+    },
+    "block.lava.pop": {
+      "replace": true,
+      "sounds": [
+        { 
+          "name": "player/geiger1",
+          "volume": 0.2,
+          "pitch": 1
+        },
+        { 
+          "name": "player/geiger2",
+          "volume": 0.2,
+          "pitch": 1
+        },
+        { 
+          "name": "player/geiger3",
+          "volume": 0.2,
+          "pitch": 1
+        },
+        { 
+          "name": "player/geiger4",
+          "volume": 0.2,
+          "pitch": 1
+        },
+        { 
+          "name": "player/geiger5",
+          "volume": 0.2,
+          "pitch": 1
+        },
+        { 
+          "name": "player/geiger6",
+          "volume": 0.2,
+          "pitch": 1
         }
       ]
     },
