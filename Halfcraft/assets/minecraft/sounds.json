@@ -1239,6 +1239,280 @@
       ]
     },
 
+    "block.stone_button.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked2",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.stone_button.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button9",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.wooden_button.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked2",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.wooden_button.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button8",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.cherry_wood_button.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked2",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.cherry_wood_button.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button7",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.bamboo_wood_button.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked2",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.bamboo_wood_button.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button6",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.nether_wood_button.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked2",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.nether_wood_button.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button5",
+          "pitch": 1.0
+        }
+      ]
+    },
+
+    "block.stone_pressure_plate.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked1",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.stone_pressure_plate.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button4",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.wooden_pressure_plate.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked1",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.wooden_pressure_plate.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.cherry_wood_pressure_plate.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked1",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.cherry_wood_pressure_plate.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button2",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.bamboo_wood_pressure_plate.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked1",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.bamboo_wood_pressure_plate.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button1",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.nether_wood_pressure_plate.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked1",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.nether_wood_pressure_plate.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button10",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.metal_pressure_plate.click_off": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/latchunlocked1",
+          "pitch": 1
+        }
+      ]
+    },
+    "block.metal_pressure_plate.click_on": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "buttons/button11",
+          "pitch": 1.0
+        }
+      ]
+    },
+
+    "block.lantern.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/bustmetal1",
+          "pitch": 1,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/bustmetal2",
+          "pitch": 1,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.lantern.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_metal1",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_metal2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_metal3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.lantern.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "weapons/cbar_hit1",
+          "pitch": 2,
+          "volume": 0.25
+        },
+        {
+          "name": "weapons/cbar_hit2",
+          "pitch": 2,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.lantern.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_duct1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_duct2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_duct3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.lantern.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_metal1",
+        "player/pl_metal2",
+        "player/pl_metal3",
+        "player/pl_metal4"
+      ]
+    },
+
     "block.glass.break": {
       "replace": true,
       "sounds": [
@@ -2419,10 +2693,33 @@
         "ambience/wind2"
       ]
     },
-    "ambient.weather.rain": {
+    "weather.rain": {
       "replace": true,
       "sounds": [
-        "ambience/waterfall2"
+        {
+          "name": "ambience/waterfall1",
+          "pitch": 1.5,
+          "volume": 0.3
+        },
+        {
+          "name": "ambience/waterfall2",
+          "pitch": 1.5,
+          "volume": 0.3
+        },
+        {
+          "name": "ambience/waterfall3",
+          "pitch": 1.5,
+          "volume": 0.3
+        }
+      ]
+    },
+    "weather.rain.above": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "ambience/drips",
+          "volume": 0.3
+        }
       ]
     },
     "ambient.weather.thunder": {
