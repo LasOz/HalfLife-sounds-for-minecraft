@@ -1977,6 +1977,150 @@
         }
       ]
     },
+
+    "entity.player.attack.strong": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/cbar_hitbod1",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/cbar_hitbod2",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/cbar_hitbod3",
+          "pitch": 0.7
+        }
+      ]
+    },
+    "entity.player.attack.crit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/bullet_hit1",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/bullet_hit2",
+          "pitch": 0.7
+        }
+      ]
+    },
+    "entity.player.attack.knockback": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/debris3",
+          "pitch": 0.7
+        }
+      ]
+    },
+    "entity.player.attack.sweep": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/cbar_miss1",
+          "pitch": 0.7
+        }
+      ]
+    },
+    "entity.player.attack.nodamage": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/ric1",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/ric2",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/ric3",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/ric4",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/ric5",
+          "pitch": 0.7
+        }
+      ]
+    },
+    "entity.player.attack.weak": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/ric1",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/ric2",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/ric3",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/ric4",
+          "pitch": 0.7
+        },
+        {
+          "name" : "weapons/ric5",
+          "pitch": 0.7
+        }
+      ]
+    },
+    "entity.item.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/357_cock1",
+          "pitch": 0.7
+        }
+      ]
+    },
+    "entity.arrow.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/xbow_hit1",
+          "pitch": 1
+        },
+        {
+          "name" : "weapons/xbow_hit2",
+          "pitch": 1
+        }
+      ]
+    },
+    "entity.arrow.shoot": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/xbow_fire1",
+          "pitch": 1
+        }
+      ]
+    },
+    "entity.arrow.hit_player": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "weapons/xbow_hitbod1",
+          "pitch": 1
+        },
+        {
+          "name" : "weapons/xbow_hitbod2",
+          "pitch": 1
+        }
+      ]
+    },
+
     "block.campfire.crackle": {
       "replace": true,
       "sounds": [
@@ -2393,6 +2537,17 @@
       ]
     },
 
+    "ui.button.click":
+    {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "ui/launch_select2",
+          "pitch": 1.0,
+          "volume": 1
+        }
+      ]
+    },
     "entity.player.levelup":
     {
       "replace": true,
