@@ -1239,6 +1239,94 @@
       ]
     },
 
+    "block.ladder.break": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "debris/bustmetal1",
+          "pitch": 1,
+          "volume": 0.5
+        },
+        {
+          "name" : "debris/bustmetal2",
+          "pitch": 1,
+          "volume": 0.5
+        }
+      ]
+    },
+    "block.ladder.place": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_duct1",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_duct2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_duct3",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_duct4",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.ladder.hit": {
+      "replace": true,
+      "sounds": [
+        {
+          "name" : "player/pl_duct1",
+          "pitch": 2,
+          "volume": 0.25
+        },
+        {
+          "name" : "player/pl_duct2",
+          "pitch": 2,
+          "volume": 0.25
+        },
+        {
+          "name" : "player/pl_duct3",
+          "pitch": 2,
+          "volume": 0.25
+        },
+        {
+          "name" : "player/pl_duct4",
+          "pitch": 2,
+          "volume": 0.25
+        }
+      ]
+    },
+    "block.ladder.fall": {
+      "replace": true,
+      "sounds": [
+        {
+          "name": "player/pl_duct1",
+          "pitch": 1.0
+        },
+        {
+          "name": "player/pl_duct2",
+          "pitch": 1.0
+        },
+        {
+          "name" : "player/pl_duct3",
+          "pitch": 1.0
+        }
+      ]
+    },
+    "block.ladder.step": {
+      "replace": true,
+      "sounds": [
+        "player/pl_ladder1",
+        "player/pl_ladder2",
+        "player/pl_ladder3",
+        "player/pl_ladder4"
+      ]
+    },
+
     "block.stone_button.click_off": {
       "replace": true,
       "sounds": [
@@ -2542,7 +2630,7 @@
       "replace": true,
       "sounds": [
         {
-          "name": "ui/launch_select2",
+          "name": "ui/buttonclick",
           "pitch": 1.0,
           "volume": 1
         }
@@ -2620,6 +2708,13 @@
       ]
     },
     "entity.player.splash_high_speed": {
+      "replace": true,
+      "sounds": [
+        "player/pl_wade3",
+        "player/pl_wade4"
+      ]
+    },
+    "entity.player.swim": {
       "replace": true,
       "sounds": [
         "player/pl_wade3",
