@@ -161,26 +161,44 @@
       "sounds": 
         [
           "scientist/areyouthink",
+          "scientist/beverage",
           "scientist/cough",
+          "scientist/chaostheory",
+          "scientist/didyouhear",
           "scientist/donuteater",
           "scientist/doyousmell",
+          "scientist/everseen",
           "scientist/goodtoseeyou",
           "scientist/greetings",
           "scientist/greetings2",
+          "scientist/hearsomething",
           "scientist/hello",
           "scientist/hello2",
           "scientist/hellothere",
           "scientist/hideglasses",
           "scientist/hungryyet",
+          "scientist/ipredictedthis",
           "scientist/justasked",
+          "scientist/letmehelp",
+          "scientist/lowervoice",
           "scientist/needsleep",
+          "scientist/neverseen",
           "scientist/odorfromyou",
+          "scientist/overhere",
           "scientist/peculiarodor",
+          "scientist/repeat",
           "scientist/seencup",
           "scientist/shutup2",
           "scientist/smellburn",
           "scientist/sneeze",
+          "scientist/softethics",
+          "scientist/somethingfoul",
+          "scientist/stopasking",
           "scientist/stench",
+          "scientist/thatsodd",
+          "scientist/theoretically",
+          "scientist/weartie",
+          "scientist/whoresponsible",
           "scientist/whyaskme"
         ]
     },
@@ -202,7 +220,7 @@
       "replace": true,
       "sounds": 
         [
-          "scientist/noo",
+          "scientist/nooo",
           "scientist/sci_die1",
           "scientist/sci_die2",
           "scientist/sci_die3",
@@ -228,13 +246,13 @@
           "scientist/sci_pain8",
           "scientist/sci_pain9",
           "scientist/sci_pain10",
-          "scientist/scream1",
-          "scientist/scream2",
-          "scientist/scream3",
-          "scientist/scream4",
-          "scientist/scream5",
-          "scientist/scream6",
-          "scientist/scream7",
+          "scientist/scream01",
+          "scientist/scream02",
+          "scientist/scream03",
+          "scientist/scream04",
+          "scientist/scream05",
+          "scientist/scream06",
+          "scientist/scream07",
           "scientist/scream08",
           "scientist/scream09",
           "scientist/scream10",
@@ -281,6 +299,7 @@
       "sounds": 
         [
           "scientist/absolutelynot",
+          "scientist/excuseme",
           "scientist/cantbeserious",
           "scientist/dontconcur",
           "scientist/idontthinkso",
@@ -2245,6 +2264,63 @@
           "pitch": 1.0,
           "volume": 0.01
         }
+      ]
+    },
+
+    "item.armor.equip_leather": {
+      "replace": true,
+      "sounds": [
+        "items/ammopickup1",
+        "items/ammopickup2"
+      ]
+    },
+    "item.armor.equip_chain": {
+      "replace": true,
+      "sounds": [
+        "items/ammopickup1",
+        "items/ammopickup2"
+      ]
+    },
+    "item.armor.equip_copper": {
+      "replace": true,
+      "sounds": [
+        "items/ammopickup1",
+        "items/ammopickup2"
+      ]
+    },
+    "item.armor.equip_iron": {
+      "replace": true,
+      "sounds": [
+        "items/ammopickup1",
+        "items/ammopickup2"
+      ]
+    },
+    "item.armor.equip_gold": {
+      "replace": true,
+      "sounds": [
+        "items/ammopickup1",
+        "items/ammopickup2"
+      ]
+    },
+    "item.armor.equip_diamond": {
+      "replace": true,
+      "sounds": [
+        "items/ammopickup1",
+        "items/ammopickup2"
+      ]
+    },
+    "item.armor.equip_netherite": {
+      "replace": true,
+      "sounds": [
+        "items/ammopickup1",
+        "items/ammopickup2"
+      ]
+    },
+    "item.armor.equip_turtle": {
+      "replace": true,
+      "sounds": [
+        "items/ammopickup1",
+        "items/ammopickup2"
       ]
     },
 
