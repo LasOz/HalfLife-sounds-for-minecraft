@@ -137,6 +137,24 @@
         "fvox/boop"
       ]
     },
+    "ui.toast.in": {
+      "replace": true,
+      "sounds": [
+        "ui/launch_upmenu1"
+      ]
+    },
+    "ui.toast.out": {
+      "replace": true,
+      "sounds": [
+        "ui/launch_dnmenu1"
+      ]
+    },
+    "ui.toast.challenge_complete": {
+      "replace": true,
+      "sounds": [
+        "ui/valve_sound"
+      ]
+    },
 
     "entity.villager.ambient":{
       "replace": true,
